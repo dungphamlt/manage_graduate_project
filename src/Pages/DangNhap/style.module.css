@@ -1,0 +1,82 @@
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.quanLy{
+    position: absolute;
+    top: 24px;
+    left: 40px;
+    font-size: 20px;
+    color: #172B4D;
+    font-weight: 500;
+    
+
+}
+
+.LogInForm{
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    width: 361px;
+    z-index: 4;
+    
+}
+
+.dangnhap{
+    font-size: 32px;
+    color: #1890FF;
+    font-weight: 700;
+    margin-bottom: 51px;
+    text-align: center;
+}
+
+.lableName, .lablePass{
+    font-size: 16px;
+    color:#252F40;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.inputName, .inputPass{
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    padding: 10px 0 10px 24px;
+}
+
+.btnDangNhap{
+    width: 100%;
+    background-color: #1890FF;
+    border-radius: 5px;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.btnDangNhap:hover{
+    opacity: 0.7;
+}
+
+
+
+.image1{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+.image2{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    
+}
+
+
+
+

@@ -1,0 +1,211 @@
+.ModuleThanhVien_container{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+.ModuleThanhVien_content{
+    position: relative;
+    top: 50px;
+    width: 850px;
+    margin: 50px auto;
+    background-color: #fff;
+    min-height: 200px;
+}
+
+.ModuleThanhVien_header{
+    height: 55px;
+    border-bottom: 1px solid #E2E3E9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ModuleThanhVien_header .them_thanh_vien{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 35px;
+    color: #172B4D;
+}
+
+.ModuleThanhVien_header .btn_close{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModuleThanhVien_header .btn_close:hover{
+    background-color: red;
+}
+
+.ModuleThanhVien_body{
+    display: flex;
+    justify-content: space-evenly;
+    height: 120px;
+    align-items: center;
+    border-bottom: 1px solid #E2E3E9;
+}
+
+.body_quanly{
+    display: flex;
+}
+
+.display_inline_block{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ModuleThanhVien_footer{
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ModuleThanhVien_footer .btn_huy, .btn_tiepTuc{
+    border: 1px solid #E2E3E9;
+    border-radius: 3px;
+    padding: 4px 16px;
+}
+
+.ModuleThanhVien_footer .btn_tiepTuc{
+    margin: 0 20px;
+    background-color: #1890FF;
+    color: #fff;
+}
+
+.ModuleThanhVien_footer .btn_huy{
+    color: #172B4D;
+    font-weight: 400;
+}
+
+.ModuleThanhVien_footer .btn_huy:hover{
+    background-color: red;
+}
+
+.ModuleThanhVien_footer .btn_tiepTuc:hover{
+    opacity: 0.7;
+}
+
+.ModuleAdd_body{
+    padding: 20px 50px 0px 50px;
+    color: #172B4D;
+    font-weight: 500;
+}
+
+.ModuleAdd_body .body_info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ModuleAdd_body .body_left{
+    width: 340px;
+}
+
+.ModuleAdd_body .avata{
+    height: 125px;
+    width: 125px;
+    position: relative;
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+
+}
+
+.img_avata{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.img_camera{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.style_input{
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #E2E3E9;
+    padding: 4px 8px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.body_right{
+    width: 340px;
+}
+
+.input_gender{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.margin_radio{
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+.input_address{
+    border-bottom: 1px solid #E2E3E9;
+    margin-bottom: 10px;
+}
+
+.input_note{
+    border-bottom: 1px solid #E2E3E9;
+}
+
+.input_passWord{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 70px;
+}
+.input_passWord .btn_pass{
+    color: #1890FF;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.Module_pass_container{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Module_pass{
+    background-color: #fff;
+    width: 550px;
+    min-height: 200px;
+    margin: 100px auto;
+}
+
+.body_pass{
+    width: 100%;
+    padding: 40px 80px;
+}
+
+
+
+

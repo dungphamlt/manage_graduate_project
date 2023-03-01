@@ -1,0 +1,198 @@
+/* SideBarSub */
+.sideBar{
+    width: 15%;
+    height: 100vh;
+    font-size: 14px;
+    color: #42526E;
+    font-weight: 500;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+
+.sideBar_logo{
+    width: 100%;
+    height: 81px;
+    display: flex; 
+}
+.sideBar .main_logo{
+    width: 50px;
+    height: 50px;
+    margin: auto;  
+}
+
+.quan_lý_tai_khoan{
+    color: #172B4D;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list_items{
+    padding: 15px 20px;
+}
+
+.list_items .li{
+    padding: 15px 0px;
+}
+
+.img_li{
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.style_hover{
+    color: #1890FF;
+}
+
+/* SubNav */
+.sub_nav{
+    width: 85%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.sub_nav .title_to_chuc{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 46px;
+    margin-left: 40px;
+
+}
+
+/* Body Cập nhập */
+
+.to_chuc{
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 16px;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    padding: 24px 146px;
+    color: #172B4D;
+    font-weight: 500;
+}
+
+.to_chuc_header{
+    display: flex;
+    align-items: center;
+}
+
+.to_chuc .truong{
+    margin-left: 30px;
+}
+
+.to_chuc_btnSua{
+    background-color: #fff;
+    border: 1px solid #1890FF;
+    padding: 4px 12px;
+    border-radius: 5px;
+    color: #1890FF;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.to_chuc_btnSua:hover{
+    opacity: 0.7;
+}
+
+
+.form_thong_tin{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.form_left{
+    min-height: 260px;
+}
+
+.form_right{
+    margin-top: 66px;
+}
+
+.thong_tin_truong{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.input_style{
+    display: block;
+    width: 340px;
+    border: 1px solid #E2E3E9;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 8px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+.to_chuc_btnCapNhat{
+    background-color:  #1890FF;
+    padding: 4px 12px;
+    border-radius: 5px;
+    color:#fff ;
+    position: absolute;
+    bottom: 36px;
+    right: 146px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.to_chuc_btnCapNhat:hover{
+    opacity: 0.7;
+}
+
+.title_toChuc{
+    color: #9EA3A9;
+    font-weight: 400;
+    margin-top: 34px;
+    margin-bottom: 8px;
+}
+
+.form_right_new{
+    margin-top: 30px;
+    margin-right: 170px;
+}
+
+/* Khung tải ảnh */
+
+.khung_tai_anh{
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    z-index: 3;
+    width: 80px;
+    height: 64px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn_tai_anh,.btn_xoa_anh{
+    width: 100%;
+    height: 50%;
+}
+
+.btn_tai_anh:hover{
+    color: #1890FF;
+}
+
+.btn_xoa_anh:hover{
+    color: #1890FF;
+}
+
+.pass_cap_nhat{
+    float:right;
+    margin-top: 15px;
+    background-color: #1890FF;
+    color: #fff;
+    font-weight: 400;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
